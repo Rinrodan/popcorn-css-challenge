@@ -1,5 +1,68 @@
+/*
+  BANNER
+      - light brown and a 1 px black border
+        - in the banner it has a title "Puerto Rico Airlines" left aligned
+        - on the right side it has 4 menu buttons 
+        BUTTONS
+          - they are dark brown
+          - off white lettering all caps
+          - No border
+          - aligned right and spaced by about 30px and about a 60px pad right
+    BODY
+      THREE SMALL BOXES
+        - There are three boxes spaced evenly
+        - the boxes have a blurred shaddow effect
+        SMALL BOX
+          - Title bold
+          - aligned left
+          BUTTON
+            - centered
+            - border 1px black
+            - text color same as menu
+            - about 10ox margin
+      ONE WIDE BOX
+        - Title bold
+        - text box aligned left
+        BUTTON
+          - centered
+          - border 1px black
+          - text color same as menu
+          - about 10ox margin
+
+
+*/
+
 /*COLORS:
 Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+html {
+  font-family: sans-serif;
+}
+
+#banner {
+    background-color: #FFDBAA;
+    border-color: black;
+    border-width: 1px;  
+}
+.title {
+  color: #553100;
+}
+#body {
+  color: black;
+  background-color: #D4A76A;
+}
+.box {
+    display: flex;
+  }
+.menbutt {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+.bodbutt {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  }
